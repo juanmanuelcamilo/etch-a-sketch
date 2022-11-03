@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  margin-top: 20px;
+  display: inline-grid;
+  justify-content: center;
+  grid-template-columns: repeat(16, 2fr);
+  grid-template-rows: repeat(16, 2fr);
+  height: 575px;
+  width: 575px;
+}
+
+.user-container {
+  margin-top: 20px;
+  display: inline-grid;
+  justify-content: center;
+  height: 575px;
+  width: 575px;
+}
+
+.grid-div {
+  border: 1px solid black;
+}
+
+.black-background {
+  background-color: black;
+}
